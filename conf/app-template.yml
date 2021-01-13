@@ -1,0 +1,9 @@
+server:
+  http_port: 8000    #运行端口
+  run_mode: debug  # debug(开启swagger) release test
+  etcd_addr: 127.0.0.1:2379
+
+log_info:
+  log_path: ../logs/grpc_test.log
+  log_adapter: file
+  log_level: debug
